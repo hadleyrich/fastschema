@@ -1,4 +1,4 @@
-module github.com/fastschema/fastschema
+module github.com/hadleyrich/fastschema
 
 go 1.23.0
 
