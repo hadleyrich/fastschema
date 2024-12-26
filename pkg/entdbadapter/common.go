@@ -119,7 +119,7 @@ func CreateDBDSN(config *db.Config) string {
 
 	if config.Driver == "pgx" {
 		dsn = fmt.Sprintf(
-			"host=%s port=%s user=%s dbname=%s password=%s sslmode=disable",
+			"host=%s port=%s user=%s dbname=%s password=%s sslmode=require",
 			config.Host,
 			config.Port,
 			config.User,
